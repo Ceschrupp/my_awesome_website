@@ -1,0 +1,43 @@
+.blackBar {
+  background-color: black;
+  height: 15px; }
+
+.contactoContainer {
+  background-color: #7af385; }
+  .contactoContainer .title {
+    text-align: right;
+    padding: 30px; }
+    .contactoContainer .title h1 {
+      font-size: 150px;
+      font-weight: bold; }
+    @media (max-width: 600px) {
+      .contactoContainer .title h1 {
+        font-size: 60px; } }
+  .contactoContainer .moreInfo {
+    padding: 30px; }
+    .contactoContainer .moreInfo h2 {
+      font-size: 40px; }
+    .contactoContainer .moreInfo p {
+      font-size: 30px; }
+    .contactoContainer .moreInfo a {
+      color: black; }
+      .contactoContainer .moreInfo a:hover {
+        color: #f37c7a; }
+    @media (max-width: 600px) {
+      .contactoContainer .moreInfo h2 {
+        font-size: 25px; }
+      .contactoContainer .moreInfo p {
+        font-size: 15px; } }
+  .contactoContainer .arrow {
+    text-align: center;
+    padding: 30px;
+    cursor: pointer; }
+    .contactoContainer .arrow i {
+      font-size: 80px; }
+      .contactoContainer .arrow i:hover {
+        color: #43c5e0; }
+    @media (max-width: 600px) {
+      .contactoContainer .arrow {
+        padding: 10px; }
+        .contactoContainer .arrow i {
+          font-size: 60px; } }

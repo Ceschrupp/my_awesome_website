@@ -1,0 +1,145 @@
+.headerContainer {
+  background-color: transparent;
+  position: fixed;
+  z-index: 99; }
+  .headerContainer img {
+    width: 150px;
+    padding: 20px; }
+  .headerContainer .logo {
+    text-align: right; }
+  @media (max-width: 600px) {
+    .headerContainer img {
+      width: 120px; } }
+
+.headerContainer-2 {
+  background-color: white;
+  text-align: center; }
+  .headerContainer-2 .headerCol {
+    padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px; }
+  .headerContainer-2 .leftSide {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 80px; }
+  .headerContainer-2 .rightSide {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 80px; }
+  .headerContainer-2 h1 {
+    color: black;
+    font-size: 150px;
+    -webkit-animation: slidein 3s, color-change 5s infinite; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #84ecff; }
+  10% {
+    color: #e184ff; }
+  20% {
+    color: #deff84; }
+  30% {
+    color: #84ff90; }
+  40% {
+    color: #fff584; }
+  50% {
+    color: #34495e; }
+  60% {
+    color: #e184ff; }
+  70% {
+    color: #2980b9; }
+  80% {
+    color: #f1c40f; }
+  90% {
+    color: #2980b9; }
+  100% {
+    color: pink; } }
+  .headerContainer-2 p {
+    color: #999999;
+    padding: 80px; }
+  .headerContainer-2 hr {
+    width: 60px; }
+  .headerContainer-2 img {
+    width: 150px;
+    padding: 30px; }
+  @media (max-width: 600px) {
+    .headerContainer-2 h1 {
+      font-size: 50px; }
+    .headerContainer-2 .leftSide {
+      padding-left: 20px; }
+    .headerContainer-2 .rightSide {
+      padding-right: 20px; }
+    .headerContainer-2 p {
+      color: #999999;
+      padding: 20px; } }
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none; }
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 27px; }
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47; }
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000; }
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px; }
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7; }
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%; }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 2.15em;
+  text-decoration: none; }
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47; }
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em; }
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none; }
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3); }

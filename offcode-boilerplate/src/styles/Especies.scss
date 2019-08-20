@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/functions";
+@import "custom_bootstrap/custom_variables";
+
+
+
+.especiesInputsWrapper{
+
+	padding-top: 50px;
+
+}
+
+.LegalColContainer{
+ 
+	.colText {
+		padding: 50px;
+		h1{
+		font-weight: bold;
+		font-size: 18px;
+		}
+		.pDiv{
+			margin-top: 20px;
+			p{
+			text-align: left;
+			font-size: 11px;
+			}
+		}
+
+		@media(max-width: 992px){
+			padding: 20px;
+
+		}
+		.btn {
+			margin-top: 10px;
+			font-weight: bold;
+			font-size: 12px ;
+			padding: 8px 34px;
+			color: black;
+		}
+	}
+	a{
+		div{		
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.colImg{
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		min-height: 50vh;
+	}
+	.table{
+		td{
+			font-size: 13px !important;
+		}
+	}
+
+}

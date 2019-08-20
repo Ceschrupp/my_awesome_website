@@ -1,0 +1,71 @@
+.blackBar{
+	background-color: black;
+	height: 15px;
+}
+.contactoContainer{
+	background-color: #7af385;
+	.title{
+		text-align: right;
+		padding: 30px;
+		h1{
+			font-size: 150px;
+			font-weight: bold;
+		}
+
+		@media (max-width: 600px) {
+			h1{
+				font-size: 60px;
+			}
+		}
+	}
+
+	.moreInfo{
+		padding:30px;
+		h2{
+			font-size: 40px;
+		}
+		p{
+			font-size: 30px;
+		}
+		a{
+			color: black;
+			&:hover{
+				color:#f37c7a;
+			}
+		}
+
+
+		@media (max-width: 600px) {
+			h2{
+				font-size: 25px;
+			}
+			p{
+				font-size: 15px;
+			}
+		}
+
+	}
+
+	.arrow{
+		text-align: center;
+		padding:30px;
+		cursor: pointer;
+		i{
+			font-size: 80px;
+			
+			&:hover{
+					color:#43c5e0;
+				}
+		}
+
+		@media (max-width: 600px) {
+			padding: 10px;
+
+			i{
+				font-size: 60px;
+
+
+			}
+		}
+	}
+}

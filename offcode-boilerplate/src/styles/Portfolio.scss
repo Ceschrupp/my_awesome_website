@@ -1,0 +1,77 @@
+@import "~bootstrap/scss/functions";
+
+.ReactModal__Overlay{
+
+	background-color: #58ee97 !important;
+	z-index: 9999999;
+		
+}
+
+.ReactModal__Content{
+	border: 10px solid black !important;
+}
+
+.modalButton{
+    top: 2px;
+    right: 3px;
+    position: absolute;
+    font-size: 15px !important;
+}
+
+.modalPic{
+	width: 300px;
+}
+
+
+.blackBar{
+	background-color: black;
+	height: 15px;
+}
+.porfolioContainer{
+	background-color: #4ddaf7;
+	text-align: center;
+
+	h1{
+		font-size: 40px;
+		padding: 40px;
+		margin-top: 0px;
+		font-weight: bold;
+	}
+
+	.portfolioItem{
+		text-align: center;
+		padding:10px;
+
+		img{
+			cursor: pointer;
+		}
+		
+		h1{
+			padding: 20px;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+	}
+
+
+	.arrow{
+		text-align: center;
+		padding:50px;
+		cursor: pointer;
+		i{
+			font-size: 80px;
+
+			&:hover{
+					color:#ed93fd;
+			}
+		}
+		@media (max-width: 600px) {
+			padding: 10px;
+
+			i{
+				font-size: 60px;
+			}
+		}
+	}
+}

@@ -1,0 +1,173 @@
+.blackBar {
+  background-color: black;
+  height: 15px; }
+
+.infoContainer {
+  background-color: #f5baf0; }
+  .infoContainer .imgCol {
+    position: absolute;
+    left: 897px;
+    top: 94px; }
+    .infoContainer .imgCol img {
+      max-width: 500px; }
+  .infoContainer .arrow {
+    text-align: center;
+    padding: 50px;
+    cursor: pointer; }
+    .infoContainer .arrow i {
+      font-size: 80px; }
+      .infoContainer .arrow i:hover {
+        color: #6fefc0; }
+    @media (max-width: 600px) {
+      .infoContainer .arrow {
+        padding: 10px; }
+        .infoContainer .arrow i {
+          font-size: 60px; } }
+  .infoContainer .infoCol {
+    text-align: center; }
+    .infoContainer .infoCol h1 {
+      font-size: 40px;
+      padding: 40px;
+      font-weight: bold; }
+    .infoContainer .infoCol p {
+      padding: 20px;
+      font-size: 20px;
+      color: black;
+      font-weight: bold;
+      -webkit-animation: flicker-in-1 2s linear both;
+      animation: flicker-in-1 2s linear both;
+      animation-delay: 3s; }
+      .infoContainer .infoCol p span:hover {
+        text-transform: uppercase; }
+
+@-webkit-keyframes flicker-in-1 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0; }
+  10.1% {
+    opacity: 1; }
+  10.2% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  20.1% {
+    opacity: 1; }
+  20.6% {
+    opacity: 0; }
+  30% {
+    opacity: 0; }
+  30.1% {
+    opacity: 1; }
+  30.5% {
+    opacity: 1; }
+  30.6% {
+    opacity: 0; }
+  45% {
+    opacity: 0; }
+  45.1% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  55% {
+    opacity: 1; }
+  55.1% {
+    opacity: 0; }
+  57% {
+    opacity: 0; }
+  57.1% {
+    opacity: 1; }
+  60% {
+    opacity: 1; }
+  60.1% {
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  65.1% {
+    opacity: 1; }
+  75% {
+    opacity: 1; }
+  75.1% {
+    opacity: 0; }
+  77% {
+    opacity: 0; }
+  77.1% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  85.1% {
+    opacity: 0; }
+  86% {
+    opacity: 0; }
+  86.1% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+
+@keyframes flicker-in-1 {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0; }
+  10.1% {
+    opacity: 1; }
+  10.2% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  20.1% {
+    opacity: 1; }
+  20.6% {
+    opacity: 0; }
+  30% {
+    opacity: 0; }
+  30.1% {
+    opacity: 1; }
+  30.5% {
+    opacity: 1; }
+  30.6% {
+    opacity: 0; }
+  45% {
+    opacity: 0; }
+  45.1% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  55% {
+    opacity: 1; }
+  55.1% {
+    opacity: 0; }
+  57% {
+    opacity: 0; }
+  57.1% {
+    opacity: 1; }
+  60% {
+    opacity: 1; }
+  60.1% {
+    opacity: 0; }
+  65% {
+    opacity: 0; }
+  65.1% {
+    opacity: 1; }
+  75% {
+    opacity: 1; }
+  75.1% {
+    opacity: 0; }
+  77% {
+    opacity: 0; }
+  77.1% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  85.1% {
+    opacity: 0; }
+  86% {
+    opacity: 0; }
+  86.1% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+    @media (max-width: 600px) {
+      .infoContainer .infoCol p {
+        padding: 20px;
+        font-size: 15px; } }

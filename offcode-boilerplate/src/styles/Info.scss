@@ -1,0 +1,259 @@
+.blackBar{
+	background-color: black;
+	height: 15px;
+}
+.infoContainer{
+	background-color: #f5baf0;
+	.imgCol{
+		position: absolute;
+	    left: 897px;
+	    top: 94px;
+		img{
+			max-width: 500px;
+		}
+	}
+	.arrow{
+		text-align: center;
+		padding:50px;
+		cursor: pointer;
+		i{
+			font-size: 80px;
+
+			&:hover{
+					color:#6fefc0;
+				}
+		}
+		@media (max-width: 600px) {
+			padding: 10px;
+
+			i{
+				font-size: 60px;
+			}
+		}
+	}
+	.infoCol{
+		text-align: center;
+		h1{
+			font-size: 40px;
+			padding: 40px;
+			font-weight: bold;
+		}
+
+		p{
+			padding:20px;
+			font-size: 20px;
+			color: black;
+			font-weight: bold;
+			-webkit-animation: flicker-in-1 2s linear both;
+	        animation: flicker-in-1 2s linear both;
+	        animation-delay: 3s;
+
+	        span{
+
+		        &:hover {
+			        text-transform:uppercase;
+			    }
+
+		    }
+
+		}
+		@-webkit-keyframes flicker-in-1 {
+		  0% {
+		    opacity: 0;
+		  }
+		  10% {
+		    opacity: 0;
+		  }
+		  10.1% {
+		    opacity: 1;
+		  }
+		  10.2% {
+		    opacity: 0;
+		  }
+		  20% {
+		    opacity: 0;
+		  }
+		  20.1% {
+		    opacity: 1;
+		  }
+		  20.6% {
+		    opacity: 0;
+		  }
+		  30% {
+		    opacity: 0;
+		  }
+		  30.1% {
+		    opacity: 1;
+		  }
+		  30.5% {
+		    opacity: 1;
+		  }
+		  30.6% {
+		    opacity: 0;
+		  }
+		  45% {
+		    opacity: 0;
+		  }
+		  45.1% {
+		    opacity: 1;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  55% {
+		    opacity: 1;
+		  }
+		  55.1% {
+		    opacity: 0;
+		  }
+		  57% {
+		    opacity: 0;
+		  }
+		  57.1% {
+		    opacity: 1;
+		  }
+		  60% {
+		    opacity: 1;
+		  }
+		  60.1% {
+		    opacity: 0;
+		  }
+		  65% {
+		    opacity: 0;
+		  }
+		  65.1% {
+		    opacity: 1;
+		  }
+		  75% {
+		    opacity: 1;
+		  }
+		  75.1% {
+		    opacity: 0;
+		  }
+		  77% {
+		    opacity: 0;
+		  }
+		  77.1% {
+		    opacity: 1;
+		  }
+		  85% {
+		    opacity: 1;
+		  }
+		  85.1% {
+		    opacity: 0;
+		  }
+		  86% {
+		    opacity: 0;
+		  }
+		  86.1% {
+		    opacity: 1;
+		  }
+		  100% {
+		    opacity: 1;
+		  }
+		}
+		@keyframes flicker-in-1 {
+		  0% {
+		    opacity: 0;
+		  }
+		  10% {
+		    opacity: 0;
+		  }
+		  10.1% {
+		    opacity: 1;
+		  }
+		  10.2% {
+		    opacity: 0;
+		  }
+		  20% {
+		    opacity: 0;
+		  }
+		  20.1% {
+		    opacity: 1;
+		  }
+		  20.6% {
+		    opacity: 0;
+		  }
+		  30% {
+		    opacity: 0;
+		  }
+		  30.1% {
+		    opacity: 1;
+		  }
+		  30.5% {
+		    opacity: 1;
+		  }
+		  30.6% {
+		    opacity: 0;
+		  }
+		  45% {
+		    opacity: 0;
+		  }
+		  45.1% {
+		    opacity: 1;
+		  }
+		  50% {
+		    opacity: 1;
+		  }
+		  55% {
+		    opacity: 1;
+		  }
+		  55.1% {
+		    opacity: 0;
+		  }
+		  57% {
+		    opacity: 0;
+		  }
+		  57.1% {
+		    opacity: 1;
+		  }
+		  60% {
+		    opacity: 1;
+		  }
+		  60.1% {
+		    opacity: 0;
+		  }
+		  65% {
+		    opacity: 0;
+		  }
+		  65.1% {
+		    opacity: 1;
+		  }
+		  75% {
+		    opacity: 1;
+		  }
+		  75.1% {
+		    opacity: 0;
+		  }
+		  77% {
+		    opacity: 0;
+		  }
+		  77.1% {
+		    opacity: 1;
+		  }
+		  85% {
+		    opacity: 1;
+		  }
+		  85.1% {
+		    opacity: 0;
+		  }
+		  86% {
+		    opacity: 0;
+		  }
+		  86.1% {
+		    opacity: 1;
+		  }
+		  100% {
+		    opacity: 1;
+		  }
+		}
+	@media (max-width: 600px) {
+		p{
+		padding: 20px;
+		font-size: 15px;
+		}
+
+	}
+
+	}
+}

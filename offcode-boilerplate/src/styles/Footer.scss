@@ -1,0 +1,77 @@
+@import "~bootstrap/scss/functions";
+@import "custom_bootstrap/custom_variables";
+.footerContainer{
+	text-align: center;
+	background-color: #43464b;
+	.redesSociales{
+		padding: 80px;
+		a{
+			color:$jeep-yellow;
+			&:hover{
+			  	color:darken($jeep-yellow, 20%);
+	         }
+			background-color: #373a3f;
+			width: 50px;
+			height: 50px;
+			border-radius: 50px;
+			font-size: 25px;
+			margin-right: 10px;
+			display: inline-block;
+			text-align: center;
+			position: relative;
+			i{
+				position: absolute;
+				top:50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+}
+.footerContainer-2{
+	background-color: #2d2e31;
+
+
+	.footerCol-2{
+		img{
+			margin-bottom: 15px;
+			max-width:260px;
+		}
+		padding:30px;
+		text-align: center;
+		color:white;
+		font-size: 12px;
+	}
+
+}
+
+.ram .footerContainer{
+	.redesSociales{
+		a{
+			color:$jeep-grey;
+			&:hover{
+			  	color:lighten($jeep-grey, 15%);
+	         }
+		}
+	}
+}
+.dodge .footerContainer{
+	.redesSociales{
+		a{
+			color:$jeep-grey;
+			&:hover{
+			  	color:lighten($jeep-grey, 15%);
+	         }
+		}
+	}
+}
+.chrysler .footerContainer{
+	.redesSociales{
+		a{
+			color:$jeep-grey;
+			&:hover{
+			  	color:lighten($jeep-grey, 15%);
+	         }
+		}
+	}
+}
