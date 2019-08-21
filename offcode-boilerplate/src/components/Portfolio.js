@@ -3,7 +3,18 @@ import Modal from 'react-modal';
 import'../styles/Portfolio.scss';
 import foto from '../../img/conchori.jpg';
 import fargol from '../../img/fargol1.jpg';
+import fargolLogo from '../../img/fargolLogo.jpg';
 import seisd from '../../img/6d.jpg';
+import seisdLogo from '../../img/6dLogo.jpg';
+import fullDog from '../../img/fulldog.jpg';
+import fullDogLogo from '../../img/fulldogLogo.jpg';
+import JeepLogo from '../../img/jeepLogo.jpg';
+import JeepPlanLogo from '../../img/JeepPlanLogo.jpg';
+import JeepWinterLogo from '../../img/JeepWinterLogo.jpg';
+import JeepSummerLogo from '../../img/JeepSummerLogo.jpg';
+import FiatVeranoLogo from '../../img/fiatVeranoLogo.jpg';
+import FiatPlanLogo from '../../img/FiatPlanLogo.jpg';
+import view from '../../img/view.png';
 
 const customStyles = {
   content : {
@@ -63,47 +74,54 @@ class Portfolio extends Component{
 
         const cards = [
         {
-          title: 'UNO',
-          modalpic: seisd,
-          picture: fargol
-        },
-        {
-          title: 'DOS',
+          title: 'Fargol de Argentina',
           modalpic: fargol,
-          picture: fargol
+          picture: fargolLogo
         },
         {
-          title: 'TRES',
+          title: '6d Its now',
           modalpic: seisd,
-          picture: fargol
+          picture: seisdLogo
+        },
+        {
+          title: 'Jeep Argentina',
+          modalpic: seisd,
+          picture: JeepLogo
 
         },
         {
-          title: 'CUATRO',
+          title: 'Jeep Plan',
           modalpic: seisd,
-          picture: fargol
+          picture: JeepPlanLogo
         },
         {
-          title: 'CINCO',
+          title: 'Jeep Winter',
           modalpic: seisd,
-          picture: fargol
+          picture: JeepWinterLogo
 
         },
         {
-          title: 'SEIS',
+          title: 'Jeep Summer',
           modalpic: seisd,
-          picture: fargol
+          picture: JeepSummerLogo
         },
+        {
+          title: 'Fiat Summer',
+          modalpic: seisd,
+          picture: FiatVeranoLogo
+        },
+        {
+          title: 'Fiat plan',
+          modalpic: seisd,
+          picture: FiatPlanLogo
+        },
+        {
+          title: 'Fiat Full dog',
+          modalpic: fullDog,
+          picture: fullDogLogo
+        },
+
       ]
-
-
-      {/*const modal = (cards.map((card, index) =>
-                    <Modal isOpen={true}  onRequestClose={this.closeModal} style={customStyles}>
-                      <button className="close modalButton" onClick={this.closeModal}><i className="fa fa-times"></i></button>
-                      <img src={card.modalpic} alt="" className="img-fluid modalPic"/>
-                    </Modal>
-                  )
-                )*/}
       var modal = "";
         if(this.state.imgId != null){
           modal = (
@@ -116,13 +134,13 @@ class Portfolio extends Component{
       const carded = (cards.map((card, index) =>
                   <div key={card.title} className="col-md-4 portfolioItem">
                     <img src={card.picture} alt="" className="img-fluid" onClick={() => this.showImageId(index)}/>
-                    <h1>{card.title}</h1>
+                    <div className="view" onClick={() => this.showImageId(index)} style={{ backgroundImage: "url(" + view + ")"}}></div>
+                    <div className="imgBg"><h1>{card.title}</h1></div>
                     {modal}
                   </div>
 
                   )
                 )
-
     		return(
           <div>
             <div className="blackBar"></div>

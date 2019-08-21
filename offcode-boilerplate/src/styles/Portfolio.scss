@@ -2,7 +2,8 @@
 
 .ReactModal__Overlay{
 
-	background-color: #58ee97 !important;
+	background-color: rgba(51, 255, 240, 0.3) !important;
+	opacity: 0.8;
 	z-index: 9999999;
 		
 }
@@ -19,7 +20,11 @@
 }
 
 .modalPic{
-	width: 300px;
+	width: 400px;
+	@media (max-width: 768px) {
+		width: 300px;
+	}
+
 }
 
 
@@ -41,9 +46,57 @@
 	.portfolioItem{
 		text-align: center;
 		padding:10px;
+		cursor: pointer;
+		transition: 0.3s;
+		position: relative;
+
+
+		&:hover{
+
+			.view{
+				animation: createBox .25s;
+				opacity: 1;
+				height: 100%;
+			    width: 100%;
+
+			}
+
+			img{
+				width: 400px;
+				opacity: 1;
+			}
+
+			h1{
+				font-size: 28px;
+			}
+		}
 
 		img{
 			cursor: pointer;
+			width: 350px;
+			opacity: 0.6;
+			transition: 0.3s;
+
+
+
+		}
+		.view{
+			opacity: 0;
+		    position: absolute;
+		    bottom: 30px;
+		    left: 5px;
+		    z-index: 9999;
+		    background-repeat: no-repeat;
+			background-position: center; 
+		}
+
+		@keyframes createBox {
+		  from {
+		    transform: scale(0);
+		  }
+		  to {
+		    transform: scale(1);
+		  }
 		}
 		
 		h1{
@@ -51,6 +104,19 @@
 			font-size: 20px;
 			font-weight: bold;
 		}
+		// .imgBg{
+		// 	// display: none;
+		//     background-color: white;
+		//     opacity: 0.5;
+		//     width: 100%;
+		//     height: 100%;
+		//     position: absolute;
+		//     top: 0px;
+		//     left: 0px;
+		//     padding:30px;
+
+
+		// }
 
 	}
 

@@ -10,7 +10,7 @@
 	.logo{
 		text-align: right;
 	}
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		img{
 			width: 80px;
 
@@ -45,7 +45,7 @@
 					color:#43c5e0;
 				}
 		}
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			padding: 10px;
 
 			i{
@@ -137,7 +137,7 @@
 		width: 150px;
 		padding: 30px;
 	}
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		h1{
 			font-size: 45px;
 		}
@@ -171,7 +171,7 @@
   height: 30px;
   left: 36px;
   top: 27px;
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
 
   	  width: 26px;
   	  height: 20px;
