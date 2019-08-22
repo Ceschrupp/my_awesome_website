@@ -15,7 +15,7 @@ import'../styles/Especies.scss'
 
 
 
-class Especies extends Component{
+class Home extends Component{
 
 	 constructor(props) {
 	    super(props);
@@ -85,4 +85,4 @@ class Especies extends Component{
 		)
 	}
 }
-export default Especies;
+export default Home;
