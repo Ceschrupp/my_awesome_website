@@ -12,7 +12,7 @@
 	}
 	@media (max-width: 768px) {
 		img{
-			width: 80px;
+			width: 100px;
 
 		}
 	}
@@ -43,7 +43,18 @@
 
 			&:hover{
 					color:#43c5e0;
+					-webkit-animation: mover .40s infinite  alternate;
+    				animation: mover .40s infinite  alternate;
 				}
+		}
+
+		@-webkit-keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
+		}
+		@keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
 		}
 		@media (max-width: 768px) {
 			padding: 10px;
@@ -138,6 +149,13 @@
 		padding: 30px;
 	}
 	@media (max-width: 768px) {
+		h1{
+			font-size: 85px;
+		}
+
+
+	}
+	@media (max-width: 600px) {
 		h1{
 			font-size: 45px;
 		}

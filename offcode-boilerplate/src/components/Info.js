@@ -26,12 +26,14 @@ class Info extends Component{
         <div className="blackBar"></div>
         <div className="container-fluid infoContainer">
           <div className="row">
-            <div className="col-md-8 infoCol" data-aos='fade-up'>
+            <div className="col-lg-8 infoCol" data-aos='fade-up'>
               <h1>ABOUT ME</h1>
-              <p>Im a Front-en developer living in Buenos Aires, Argentina. I write beautiful, accessible, fast and full of love code. I try in every project to use the best  technology possible for the requirement, i've been coding for now 3 years and worked in many different things like pixel perfect animated banners, html responsive mails, landing pages and webapps. I am very much in love with the tech world and i look everyday on how to expand my knowledge and learn more (i have to say that im very good googling)
+              <p>Im a Front-end developer from Bolivia living in Buenos Aires, Argentina. I write beautiful, accessible, fast and full of love code. I try in every project to use the best  technology possible for the requirement, i've been coding for now 3 years and worked in many different things like pixel perfect animated banners, html responsive e-mails, landing pages and web apps. I am very much in love with the tech world and i look everyday on how to expand my knowledge and learn more (i have to say that im very good googling) cause im always curious.
+                Beyond my Front-end skills i also enjoy art, sports and i love animals and nature. I graduated from film studies and i worked in that for some good time of my life mainly editing and filming different kinds of audiovisual content. 
+
               </p> 
             </div>
-            <div className="col-md-4 d-none d-sm-block">
+            <div className="col-md-4 d-none d-lg-block">
               <img className="img-fluid" src={foto} alt=""/>
             </div>
             <div className="col-md-12 arrow" onClick={this.props.navToPortfolio}>

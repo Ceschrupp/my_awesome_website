@@ -31,6 +31,7 @@
 			color: black;
 			&:hover{
 				color:#f37c7a;
+
 			}
 		}
 
@@ -55,7 +56,17 @@
 			
 			&:hover{
 					color:#43c5e0;
+					-webkit-animation: mover .40s infinite  alternate;
+    				animation: mover .40s infinite  alternate;
 				}
+		}
+		@-webkit-keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
+		}
+		@keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
 		}
 
 		@media (max-width: 600px) {

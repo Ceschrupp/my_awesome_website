@@ -2,7 +2,7 @@
 
 .ReactModal__Overlay{
 
-	background-color: rgba(51, 255, 240, 0.3) !important;
+	background-color: rgba(51, 51, 51, 0.1) !important;
 	opacity: 0.8;
 	z-index: 9999999;
 		
@@ -17,10 +17,11 @@
     right: 3px;
     position: absolute;
     font-size: 15px !important;
+    text-shadow: none !important;
 }
 
 .modalPic{
-	width: 400px;
+	width: 100%;
 	@media (max-width: 768px) {
 		width: 300px;
 	}
@@ -54,7 +55,7 @@
 		&:hover{
 
 			.view{
-				animation: createBox .25s;
+				animation: createBox .40s;
 				opacity: 1;
 				height: 100%;
 			    width: 100%;
@@ -64,6 +65,7 @@
 			img{
 				width: 400px;
 				opacity: 1;
+				border-radius: 0px;
 			}
 
 			h1{
@@ -76,6 +78,7 @@
 			width: 350px;
 			opacity: 0.6;
 			transition: 0.3s;
+			border-radius: 30px;
 
 
 
@@ -130,7 +133,17 @@
 
 			&:hover{
 					color:#ed93fd;
+					-webkit-animation: mover .40s infinite  alternate;
+    				animation: mover .40s infinite  alternate;
 			}
+		}
+		@-webkit-keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
+		}
+		@keyframes mover {
+		    0% { transform: translateY(0); }
+		    100% { transform: translateY(-10px); }
 		}
 		@media (max-width: 600px) {
 			padding: 10px;

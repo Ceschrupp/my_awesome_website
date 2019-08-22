@@ -9,11 +9,17 @@ import seisdLogo from '../../img/6dLogo.jpg';
 import fullDog from '../../img/fulldog.jpg';
 import fullDogLogo from '../../img/fulldogLogo.jpg';
 import JeepLogo from '../../img/jeepLogo.jpg';
+import Jeep from '../../img/jeeplanding.jpg';
 import JeepPlanLogo from '../../img/JeepPlanLogo.jpg';
+import JeepPlan from '../../img/jeep_plan.jpg';
 import JeepWinterLogo from '../../img/JeepWinterLogo.jpg';
+import JeepWinter from '../../img/jeep_invierno.jpg';
 import JeepSummerLogo from '../../img/JeepSummerLogo.jpg';
+import JeepSummer from '../../img/jeep_verano.jpg';
 import FiatVeranoLogo from '../../img/fiatVeranoLogo.jpg';
+import FiatVerano from '../../img/fiat_verano.jpg';
 import FiatPlanLogo from '../../img/FiatPlanLogo.jpg';
+import FiatPlan from '../../img/fiat_plan.jpg';
 import view from '../../img/view.png';
 
 const customStyles = {
@@ -85,34 +91,34 @@ class Portfolio extends Component{
         },
         {
           title: 'Jeep Argentina',
-          modalpic: seisd,
+          modalpic: Jeep,
           picture: JeepLogo
 
         },
         {
           title: 'Jeep Plan',
-          modalpic: seisd,
+          modalpic: JeepPlan,
           picture: JeepPlanLogo
         },
         {
           title: 'Jeep Winter',
-          modalpic: seisd,
+          modalpic: JeepWinter,
           picture: JeepWinterLogo
 
         },
         {
           title: 'Jeep Summer',
-          modalpic: seisd,
+          modalpic: JeepSummer,
           picture: JeepSummerLogo
         },
         {
           title: 'Fiat Summer',
-          modalpic: seisd,
+          modalpic: FiatVerano,
           picture: FiatVeranoLogo
         },
         {
           title: 'Fiat plan',
-          modalpic: seisd,
+          modalpic: FiatPlan,
           picture: FiatPlanLogo
         },
         {

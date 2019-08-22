@@ -17,7 +17,21 @@
     .infoContainer .arrow i {
       font-size: 80px; }
       .infoContainer .arrow i:hover {
-        color: #6fefc0; }
+        color: #6fefc0;
+        -webkit-animation: mover .40s infinite  alternate;
+        animation: mover .40s infinite  alternate; }
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-10px); } }
+
+@keyframes mover {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(-10px); } }
     @media (max-width: 600px) {
       .infoContainer .arrow {
         padding: 10px; }
@@ -27,7 +41,7 @@
     text-align: center; }
     .infoContainer .infoCol h1 {
       font-size: 40px;
-      padding: 40px;
+      margin-top: 30px;
       font-weight: bold; }
     .infoContainer .infoCol p {
       padding: 20px;
@@ -36,7 +50,8 @@
       font-weight: bold;
       -webkit-animation: flicker-in-1 2s linear both;
       animation: flicker-in-1 2s linear both;
-      animation-delay: 3s; }
+      animation-delay: 5s;
+      text-align: justify; }
       .infoContainer .infoCol p span:hover {
         text-transform: uppercase; }
 
