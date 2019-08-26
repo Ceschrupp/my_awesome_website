@@ -17,7 +17,7 @@ class Subheader extends Component{
       <div className="container-fluid headerContainer-2">
         <div className="row">
           <div className="col headerCol">
-            <h1 className="leftSide">HI.</h1>
+            <h1 className="leftSide">HI!</h1>
             <h1 className="rightSide">I AM CECILIA</h1>
             <div className="arrow" onClick={this.props.navToAbout}>
               <i className="fa fa-angle-double-down"></i>

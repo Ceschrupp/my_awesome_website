@@ -18,7 +18,7 @@
 	}
 }
 .headerContainer-2{
-	background-color: white;
+	background-color: black;
 	text-align: center;
 	.headerCol{
 		padding: 25px;
@@ -40,6 +40,7 @@
 		
 		i{
 			font-size: 80px;
+			color:white;
 
 			&:hover{
 					color:#43c5e0;
@@ -199,13 +200,13 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: white;
   font-size: 20px;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: pink;
 }
 
 /* Position and sizing of clickable cross button */
