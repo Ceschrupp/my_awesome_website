@@ -27,7 +27,7 @@ class Header extends Component{
             <div className="col-6">
             </div>
             <div className="col-6 logo">
-              <img src={logo} alt=""/>
+              <img src="" alt=""/>
             </div>
         </div>
       </div>

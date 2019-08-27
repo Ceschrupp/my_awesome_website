@@ -3,7 +3,7 @@
   height: 15px; }
 
 .infoContainer {
-  background-color: #f5baf0; }
+  background-color: black; }
   .infoContainer .imgCol {
     position: absolute;
     left: 897px;
@@ -15,7 +15,8 @@
     padding: 50px;
     cursor: pointer; }
     .infoContainer .arrow i {
-      font-size: 80px; }
+      font-size: 80px;
+      color: white; }
       .infoContainer .arrow i:hover {
         color: #6fefc0;
         -webkit-animation: mover .40s infinite  alternate;
@@ -42,16 +43,16 @@
     .infoContainer .infoCol h1 {
       font-size: 40px;
       margin-top: 30px;
-      font-weight: bold; }
+      font-weight: bold;
+      color: white; }
     .infoContainer .infoCol p {
       padding: 20px;
-      font-size: 20px;
+      font-size: 24px;
       color: black;
-      font-weight: bold;
-      -webkit-animation: flicker-in-1 2s linear both;
-      animation: flicker-in-1 2s linear both;
+      font-weight: 300;
       animation-delay: 5s;
-      text-align: justify; }
+      text-align: justify;
+      color: white; }
       .infoContainer .infoCol p span:hover {
         text-transform: uppercase; }
 

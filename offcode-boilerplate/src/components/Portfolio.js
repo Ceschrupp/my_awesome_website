@@ -21,6 +21,8 @@ import FiatVerano from '../../img/fiat_verano.jpg';
 import FiatPlanLogo from '../../img/FiatPlanLogo.jpg';
 import FiatPlan from '../../img/fiat_plan.jpg';
 import view from '../../img/view.png';
+import AOS from 'aos';
+import '../../node_modules/aos/src/sass/aos.scss'; 
 
 const customStyles = {
   content : {
@@ -138,7 +140,7 @@ class Portfolio extends Component{
           )
         }
       const carded = (cards.map((card, index) =>
-                  <div key={card.title} className="col-md-4 portfolioItem">
+                  <div key={card.title} className="col-md-4 portfolioItem" data-aos='fade-up'>
                     <img src={card.picture} alt="" className="img-fluid" onClick={() => this.showImageId(index)}/>
                     <div className="view" onClick={() => this.showImageId(index)} style={{ backgroundImage: "url(" + view + ")"}}></div>
                     <div className="imgBg"><h1>{card.title}</h1></div>
@@ -152,8 +154,8 @@ class Portfolio extends Component{
             <div className="blackBar"></div>
             <div className="container-fluid porfolioContainer">
               <div className="row">
-                <div className="col-md-12">
-                  <h1>PORTFOLIO</h1>
+                <div className="col-md-12" data-aos='fade-up'>
+                  <h1>MY WORK</h1>
                 </div>
                 {carded}
                 <div className="col-md-12 arrow" onClick={this.props.navToContacto}>
