@@ -133,7 +133,7 @@ class Portfolio extends Component{
       var modal = "";
         if(this.state.imgId != null){
           modal = (
-            <Modal isOpen={true} onRequestClose={this.closeModal} style={customStyles} ariaHideApp={false}>
+            <Modal  isOpen={true} onRequestClose={this.closeModal} style={customStyles} ariaHideApp={false}>
               <img src={cards[this.state.imgId].modalpic} alt="" className="img-fluid modalPic"/>
               <button className="close modalButton" onClick={this.closeModal}><i className="fa fa-times"></i></button>
             </Modal>
