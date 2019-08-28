@@ -20,11 +20,11 @@ class App extends Component{
     
   }
 
-
 	
 	render(){
+
       return (
-      	<div className={this.state.marca}>
+      	<div>
         		<Header/>
     	      	<BrowserRouter>
           				<Switch>
@@ -33,7 +33,8 @@ class App extends Component{
     			   </BrowserRouter>
 		    </div>
       );
-	}
+
+    }
 }
 
 export default App;
